@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import GA4React from "ga-4-react";
+const ga4react = new GA4React("G-K38V8HS03Z");
+ga4react.initialize().then().catch()
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
